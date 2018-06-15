@@ -455,7 +455,7 @@ h6, .h6 {
 hr {
 
   border: 0;
-  border-top: 20px solid rgba(97, 14, 127, .7);
+  border-top: 20px solid rgba(181, 34, 123, .9);
 }
 
 small,
@@ -2680,7 +2680,7 @@ tbody.collapse.show {
   text-align: center;
   background-color: #e9ecef;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius:3rem;
 }
 
 .input-group-addon.form-control-sm,
