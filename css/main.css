@@ -1894,7 +1894,6 @@ nav a {
   font-weight: 500;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
-  margin: 0 25px;
   display: inline-block;
 }
 
@@ -1964,9 +1963,9 @@ nav a:hover {
 }
 */
 .p2-gradient-bg, .primary-btn:after, .ilene-tabs .nav-item:hover, .ilene-tabs .nav-item.active {
-  background-image: -moz-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
-  background-image: -webkit-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
-  background-image: -ms-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .p1-gradient-color {
@@ -2246,15 +2245,34 @@ nav a:hover {
   z-index: 83;
 }
 
+.biblio-area{
+  position: relative;
+  background: url(../img/biblio2.jpg) no-repeat center center/cover;
+}
+
+.biblio-area .overlay-bg {
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: .6;
+}
+
+.biblio-area .text-title {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
 .video-area {
   position: relative;
   background: url(../img/video-area-bg.jpg) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
-  background-image: -moz-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
-  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
-  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #7539dd 0%, #7034db 100%);
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: .8;
 }
 

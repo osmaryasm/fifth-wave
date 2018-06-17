@@ -362,6 +362,28 @@
 
 /* Content */
 
+.icon{
+    text-align:center;
+    margin-top:2em
+}
+
+.fa.fa-home, .fa-frown-o, .fa-futbol-o, .fa-twitter{
+	border-radius: 50%;
+	background:#1CBFC5;
+}
+
+.fa-frown-o:hover{
+	background: #773f82;
+}
+.fa-futbol-o:hover{
+	background: #773f82;
+}
+.fa-twitter:hover{
+	background: #773f82;
+}
+.fa.fa-home:hover{
+	background: #773f82 ;
+}
 
 .code{
   width:600px;
