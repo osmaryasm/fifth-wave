@@ -456,7 +456,7 @@ h6, .h6 {
 hr {
 
   border: 0;
-  border-top: 20px solid rgba(181, 34, 123, .9);
+  border-top: 20px solid rgb(94, 66, 146);
 }
 
 small,
@@ -3020,7 +3020,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .show > .nav-pills .nav-link {
   color: #fff;
-  background-color: #B5227B;
+  background-color: #5e4292;
 }
 
 .nav-fill .nav-item {
